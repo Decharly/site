@@ -1,0 +1,224 @@
+/*generale sur accueil*/
+
+
+.swiper-container{
+    
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+}
+#stay_un .list-group-item{
+    box-shadow: 0 0 10px #85888C;
+}
+#stay_un .list-group-item:hover{
+    background:rgba(55,255,155,.6);
+    transition: 2.5s;
+    color: red;
+}
+#stay_un .list-group a{
+    margin: 5px;
+}
+
+#stay_un a div{
+    color: #333;
+    text-decoration: none;
+}
+#stay_un h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #124578;
+}
+
+#stay_un h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #f42;
+}
+#stay_un .para p{
+    font-size:.7em;
+    font-family: sans-serif;
+    color: #000;
+}
+#stay_un .para{
+    float: left;
+    width: 50%;
+    height: 150px;
+    text-align: justify;
+}
+#stay_un .imgo{
+    float: right;
+    width: 40%;
+}
+#homestor_up h2{
+    color: #fff;
+    background:#28a745;
+    padding: 10px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: inherit;
+    height: 60px;
+    border-radius: 5px;
+}
+#homestor_up p{
+    padding: 20px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
+}
+#homestor_up p ul li{
+    list-style: none;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+/*footer*/
+
+/*index slide bar*/
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.swiper-button-next{
+    color: #000 ! important;
+}
+.swiper-button-prev{
+    color: #000;
+}
+/**/
+/**/
+
+.carousel-container {
+  width: 100%;
+  height: 360px;
+    margin-top: 30px;
+  margin: 20px auto;
+/*  border: 1px solid #777;*/
+}
+
+.carousel {
+  width: 100%;
+  height: 360px;
+   overflow: hidden;
+}
+
+.carousel-item {
+  width: inherit;
+  height: inherit;
+  float: left;
+  display: none;
+}
+
+.carousel-item p {
+  color: #fff;
+  margin: 0;
+  line-height: 300px;
+  font-family: Calibri;
+  font-size: 50px;
+  text-align: center;
+}
+
+#item1 {
+  background: url(../image/carousel/marie.png);
+    background-repeat: no-repeat;
+     width: inherit;
+  height: inherit;/* BLUE */
+}
+
+#item2 {
+  background: url(../image/carousel/prefecture.png);
+    background-repeat: no-repeat;
+     width: inherit;
+  height: inherit;/* BLUE */ /* SEA GREEN */
+}
+
+#item3 {
+  background: url(../image/carousel/eglise.png);
+    background-repeat: no-repeat;
+     width: inherit;
+  height: inherit;/* BLUE */ /* PURPLE */
+}
+
+#item4 {
+  background: url(../image/carousel/8.png);
+    background-repeat: no-repeat;
+     width: inherit;
+  height: inherit;/* BLUE */ /* YELLOW */
+}
+#item5 {
+  background: url(../image/carousel/10.png);
+    background-repeat: no-repeat;
+     width: inherit;
+  height: inherit;/* BLUE */ /* YELLOW */
+}
+#item6 {
+  background: url(../image/carousel/9.png);
+    background-repeat: no-repeat;
+     width: inherit;
+  height: inherit;/* BLUE */ /* YELLOW */
+}
+
+.carousel-controls {
+  width: inherit;
+  height: 35px;
+}
+
+.carousel-container .carousel-controls > a {
+  color: #777;
+  margin: 5px;
+  padding: 5px;
+  font-family: Calibri;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
+
+
+.carousel-container .carousel-controls > a:hover {
+  color: #222;
+}
+
+.carousel-container .carousel-controls > a.left {
+  float: left;
+}
+
+.carousel-container .carousel-controls > a.right {
+  float: right;
+}
+
+.carousel-status {
+  margin: 0;
+  color: #444;
+  font-family: Calibri;
+  font-size: 12px;
+  text-align: center;
+}
+/**/
+
+
+
+
+

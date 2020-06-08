@@ -1,0 +1,782 @@
+/*GENERAL*/
+
+*{
+    padding: 0;
+    margin:0;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+.header-folio h2{
+    margin-top: 10px;
+    color: #ac4f00;
+    background-color:#ddc;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 5px solid green;
+     text-transform: uppercase;
+   font-size: 20px;
+}
+
+.course{
+    color: red;
+    font-size: 40px;
+}
+
+ .self h1{
+    color: #fff;
+    background:rgb(0,100,0);
+    box-shadow: 3px 5px rgba(0,0,0,0.66);
+    -moz-box-shadow:3px 5px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 3px 5px  rgba(0,0,0,0.66);
+     text-shadow: 3px 3px #123;
+    position: absolute;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 6px;
+    text-transform: uppercase;
+
+}
+ .self h1:before
+{
+    border: 16px solid transparent;
+    border-bottom: 10px solid rgb(0,100,0);
+    border-left: 10px solid rgb(0,100,0);
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -12px;
+     border-radius: 2px;
+}
+
+
+
+
+h4{
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.header{
+    background:linear-gradient(rgba(0,0,222,0.05),rgba(0, 0, 222, 0.05)), url(../image/symbo1.png) center;
+    background-repeat: no-repeat;
+width: 100%;
+    top:0;
+    margin: 0;
+    
+
+}
+
+
+
+.heading h1{
+    text-transform: uppercase;
+     text-align: center;
+    font-size: 3em;
+     color: #ffc200;
+    font-weight: bold;
+
+}
+
+.white-divider{
+    width:200px ;
+    border-bottom: 2px solid #f42400;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+
+}
+.red-divider{
+    width:280px ;
+    border-bottom: 2px solid #f42400;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+
+}
+
+.heading p{
+    color:#ddd;
+    font-size: 10px;
+    font-weight: bold;
+     background-color: rgba(42,42,42,0.40);
+     margin:0 auto;
+    margin-bottom: 10px;
+    
+    
+}
+
+/*BANNER*/
+
+
+/*icon*/
+
+
+.h{
+    
+    background-color: #004ab2;
+    
+}
+
+.ol{
+    color:#ffc200;
+    
+}
+.ok{
+    color:rgba(146, 168, 172, 0.66);
+}
+
+
+.fab{
+    width: 60px;
+    height: 40px;
+}
+.fa-facebook-f{
+    color: #fff;
+    background-color:  #0072f8;
+border-radius: 10%;
+    padding-top: 10px;
+        margin-top: 10px;
+     margin-right: 20px;
+}
+ 
+.fa-linkedin-in{
+    color: #fff;
+    background-color:  #123;
+border-radius: 10%;
+    padding-top: 10px;
+        margin-top: 10px;
+    margin-right: 20px;
+}
+ 
+.fa-google-plus-g{
+    color: #fff;
+    background-color:  red;
+border-radius: 10%;
+    padding-top: 10px;
+        margin-top: 10px;
+     margin-right: 20px;
+}
+ 
+.fa-twitter{
+    color: #fff;
+    background-color:  #0072f8;
+border-radius: 10%;
+    padding-top: 10px;
+        margin-top: 10px;
+     margin-right: 20px;
+}
+.ikon{
+    background-color: rgba(42,42,42,0.60);
+    padding-bottom: 10px;
+    text-align: center;
+   width: 356px;
+    margin:0 auto;
+    margin-top: 8px;
+    padding-left: 10px
+    
+}
+
+
+/*BANNER-2*/
+
+
+.col-sm-3 a{
+    text-decoration: none;
+     background: rgba(0,100,00);
+}
+/*ecole*/
+#ecole{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px;
+    color: #000;
+}
+/*col-md-6*/
+
+
+.portfolio{
+    background-color: #123;
+    
+}
+
+#nihidaley, #hotel, #ecole, #cascade,  #form_main, #about, #banner-2, #setup, #portfolio, #banner{
+    width: 50%;
+    font-size: 1em;
+    color: #555555;
+    font-family:  arial,sans-serif;
+     background: #fff;
+    padding: 15px;
+    text-align: justify;
+/*  margin:  0px auto;*/
+    
+}
+
+.asi{
+    color: #f42;
+    text-transform: uppercase;
+}
+#banner img{
+    width: 100%;
+}
+#cascade p{
+    font-size: 0.9em;
+}
+#link_Aside
+{
+    width:40%;
+    padding: 10px;
+    float: right;
+    background:#fff;
+}
+
+#link_Aside li {
+    list-style: none;
+    box-shadow: 0px 0px 10px solid #000;
+    height: 130px;
+    background: #eee;
+    padding: 10px;
+}
+
+#link_Aside .Mylink p{
+    width: 45%;
+    height: inherit;
+    float: left;
+    text-align: justify;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#link_Aside .Mylink_img img{
+    width: 50%;
+    height: inherit;
+    float: right;
+    
+}
+/*overly*/
+.badge{
+    background: #589631;
+    color: #fff;
+    padding: 8px;
+}
+.badge:hover{
+    padding: 10px;
+    color: #fff;
+   transition: 0.5s;
+    background:#ffcd90; 
+}
+/*marquee*/
+
+
+.marquee h5{
+    text-align: center;
+    margin-left: 10px;
+    font-family: Brush Script MT,arial,sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+   
+    
+}
+
+/*TABLEAU*/
+
+
+.tableau{
+    margin-top: 20px;
+}
+
+
+
+/*CONTACT*/
+
+.contact{
+    width: 100%;
+    
+}
+ #form_main{
+   background: #ffcc99;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 40px;
+     border-radius: 6px;
+     padding:  20px 50px;
+}
+.form_main h1{
+    text-transform:uppercase;
+    color: rgba(0,100,0);
+    text-align: center;
+    font-family: cursive;
+    font-size: 1em;
+}
+#form_main .col-md-6 input{
+    height: 60px;
+}
+#form_main .col-lg-12 input{
+    height: 80px;
+}
+.button input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    
+    
+}
+
+/*fin contact css*/
+
+/*debut de lien de l'entète d'inscription dans header*/
+.head_nav{
+    width: 100%;
+    height: 60px;
+    background:#000; 
+    position: relative;
+}
+.nav_contaienr{
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+}
+
+.menu_head{
+    width: 100%;
+    height: 50px;
+}
+.menu_head>.menu_content{
+   width: 500px;
+    height: 50px;
+    float: right;
+    line-height: 60px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    position: relative;
+}
+.menu_head>.menu_content>a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.arrow-up{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent; 
+    border-bottom:20px solid #122; 
+    right: 290px;
+    top:25px;
+    display: none;
+    
+}
+
+.head_for{
+    position: absolute;
+    width: 290px;
+    height: 190px;
+    background: #123;
+    right: 170px;
+    top:40px;
+    padding: 12px;
+    border-radius: 10px;
+    border-bottom: 5px solid gray;
+    box-shadow: 0px 0px 10px  #123;
+    display: none;
+}
+
+.head_for td{
+    padding-top: 10px;
+}
+/*fin de lien d'inscription*/
+
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.blue{
+    color: #0069d6;
+}
+
+.comment{
+    font-style: italic;
+    font-size:12px;
+    color:#d82c2e;
+    height: 25px;
+}
+
+.thank-you{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size:20px;
+}
+/*pot*/
+#portfolio{
+      margin: 0px auto;
+    border-radius: 5px;
+    background-color: rgb(45,100,123);
+     padding: 20px 30px;
+    
+}
+
+#portfolio .illustration img{
+    margin: 20px auto;
+    width: 50%; 
+}
+#portfolio .ghy{
+    border-style: none;
+    color: aliceblue;
+    background: red;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#portfolio h4{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+#portfolio a{
+    text-decoration: none;
+    
+}
+#portfolio .thumbnail img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#portfolio .thumbnail img:hover{
+    filter: grayscale(none);
+    -webkit-filter:grayscale(none);
+    background: #123;
+    transition: .1s;
+    
+}
+
+/*MENU*/
+
+.nav{
+    width: inherit;
+   height: 60px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.60);
+    color:#ffffff;
+    font-family: cursive;
+    margin: 0;
+    
+}
+ .logo{
+    margin-top:  20px;
+height:40px;
+ width: 110px;
+padding: 10px;
+float: left;
+}
+.navbar{
+    width: 100%;
+}
+.navbar ul li {
+    display: inline-flex;
+    list-style: none;
+   
+}
+.navbar ul li a{
+      padding: 12px;
+     font-size: 13px;
+    text-decoration: none;
+     color:aliceblue;
+    float: right;
+    text-transform: uppercase;
+}
+.navbar.black{
+    background: #eeecef;
+    border-bottom: 1px solid #000;
+    box-shadow: 20px;
+    width: 100%;
+    height: 60px;
+} 
+.navbar.black .logo{
+     width: 110px;
+    height:40px;
+    padding: 10px;
+}
+.navbar.black ul li a{
+    color: #000;
+    font-size: 13px;
+}
+.navbar.black .logo{
+    background-color: #000;
+}
+.xxl{
+    display: none;
+}
+/* General*/
+/*la classe nav Mymenu*/
+.Mymenu{
+     box-shadow: 0 0 10px #85888C;
+}
+.Mymenu ul{
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+}
+.Mymenu ul li 
+{
+   
+    font-family: cursive;
+    font-size: 15px;
+    text-transform:capitalize;
+     padding: 20px;
+    display: inline-block;
+}
+.Mymenu  a {
+    text-decoration: none;
+     color: #000;
+}
+.Mymenu ul  li :hover{
+   color:  #f42;
+   transition: 0.5;
+}
+/*fin de Mymenu*/
+.menu{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 40px;
+    height: 50px;
+    background: #ffffff;
+    cursor: pointer;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.menu span{
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: #262626;
+    display: block;
+    top:calc(50%  - 1px);
+    left:calc(50%  - 15px);
+    transition: 0.2s;
+}
+.menu span:nth-child(1){
+    transform: translateY(-10px);
+}
+.menu span:nth-child(3){
+    transform: translateY(10px);
+}
+.menu.active span:nth-child(1){
+    transform: translateY(0px) rotate(-45deg);
+}
+.menu.active span:nth-child(3){
+    transform: translateY(0px)rotate(45deg);
+}
+.menu.active span:nth-child(2){
+    transform: translateX(-30px);
+    opacity: 0;
+}
+.menu-bar{
+    display: none;
+    top:0;
+    left:0;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    float: right;
+    background: #00795f;
+    transition: 0.5s;
+    transform: translateX(-100%)
+}
+.menu-bar.active{
+    transform: translateX(0%);
+}
+
+
+
+.menu-bar ul{
+display: flex;
+margin: 0;
+padding: 0;
+float: right;
+}
+.menu-bar ul li{
+    list-style: none;
+
+}
+.menu-bar ul li a{
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform:uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    display: block;
+    border-right: 1px solid #000;
+}
+.menu-bar ul li a:last-child{
+border-right: none;
+}
+.menu-bar ul li a:hover{
+
+color: rgba(0,0,0.1);
+transition: 0.5s;
+
+}
+/*sub-menu*/
+
+/*sub-menu*/
+
+
+
+/*fin*/
+.icon-bar{
+    background-color: #fff;
+   
+}
+
+/* GENERAL SUR CAROUSEL EN CSS EN JS*/
+
+  /*image*/
+/*
+
+*/
+
+
+
+
+/*FIN DE CAROUSEL*/
+
+
+
+/*footer*/
+
+
+/*....Apropos*****....*/
+
+#starup{
+    padding: 20px;
+    font-size: 1.5em;
+    background: #fff;
+    color: #38373a;
+    text-align: justify;
+
+}
+#about{
+    border-radius: 5px;
+    margin-top: 50px;
+     padding: 20px 50px;
+    height: 100%;
+    background: #ffcc99;
+}
+#about p{
+    text-align: justify;
+    color: darkslategrey;
+}
+#about h2{
+     color: #124578;
+   text-align: center;
+    text-transform: uppercase;
+    font-family:serif;
+    
+}
+#about .divider{
+    margin: 10px auto;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+    height:5px;
+}
+#about img{
+    height: 100%;
+    width: 100%;
+}
+/*slide bar avec swiper*/
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+        width: 100%;
+        height: 200px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.swiper-slide .item{
+    background: #fff;
+    padding: 15px;
+}
+#banner{
+    width: 60%;
+}
+#link_Aside{
+     width: 30%;
+}
+
+/*AFFICHAGE MEIDA*/
+/*AFFICHAGE MEIDA*/
+
+@media (max-width: 700px) {
+    #nihidaley, #cascade, #hotel, #ecole, #form_main, #about, #banner-2, #setup, #portfolio,#banner {
+    float:none;
+    width: 100%;
+    font-size: 1.2em;
+    color: #555555;
+    font-family:  arial,sans-serif;
+     background: #fff;
+    padding: 20px;
+    text-align: justify;
+        
+  }
+    #link_Aside{
+    float: none;
+    width: 100%;
+    }
+    #link_Aside .Mylink_img img{
+        width: 40%;
+        height: 100Px;
+    }
+
+}
+
+/*FIN DU CODE AFFICHAGE MEDIA*/
+/*....fin ....****/
